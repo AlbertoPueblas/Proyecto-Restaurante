@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+html{
+    font-size: 90%;
+} 
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    color: blue;
+}
+
+.container nav{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+/*Creacion de columnas*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,280px));
+    justify-content: center;
+    max-width: 1100px;
+    gap:20px;
+    padding-bottom: 50px;
+}
+
+
+.items{
+    color:rgb(8, 8, 8);
+    background-color: rgb(247, 247, 245);
+
+}
+
+.items img{
+    width: 100%;
+    height: 190px;
+}
+
+.info{
+    padding: 15px;
+
+}
+
+
+.info p{
+    color:black;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.info button{
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(25, 94, 150);
+    border:none;
+    outline: none;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border-radius:5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+}
+/*Creacion de carrito*/
+.info button:hover{
+    background-color: blue;
+    transition: all .3s;
+}
+
+
+.container nav{
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    padding: 5px;
+    background-color: rgb(231, 239, 247);
+    margin-bottom: 10px;
+}
+
+.container nav i:hover >.buy-card{
+    width: 400px;
+    height: 400px;
+    right: 0;
+    background-color:rgb(231, 239, 247);
+
+}
+
+
+.container nav i:hover .nav-card{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px o 5px;
+    border-bottom: solid thin rgb(70, 143, 185);
+}
+
+.container nav i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.nav-card{
+    display: none;
+
+}
+
+.container nav button{
+    display: none;
+}
+
+.container nav i:hover .buy-card>button{
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 10px auto;
+    background-color: transparent;
+    border: solid thin white;
+    color:black;
+}
+
+.container nav i:hover .buy-card>button:hover{
+    border:solid thin #dbd4d4;
+    transition: all 4s;
+    cursor:pointer ;
+}
+
+.nav-card li{
+    list-style: none;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+/*habilitar carrito*/
+
+.lista-de-platos{
+    display: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border:solid thin grey;
+}
+
+.container nav i:hover .buy-card> .lista-de-platos{
+    display:flex;
+
+}
+
+.lista-de-platos img{
+    width: 80px;
+}
+
+.lista-de-platos p{
+    width: 100px;
+    font-size: medium;
+}
+
+.lista-de-platos p:nth-child(4){
+    font-size: small;
+}
+    
+
+/*boton borrar*/
+.lista-de-platos p:last-child span{
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: red; 
+}  
+/*Transicion de imagenes*/
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 25s infinite
+    alternate linear;
+    width: 400%;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width:90%;
+    height:70%;
+    display: center;
+    
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}
+/*imagen carrusel de fotos*/
+
+
+#content-items-carrusel{
+    border: 5px solid black;
+    height: 200px;
+
+}
+
+.item-carrusel{
+    height: 100%;
+    position: relative;
+    border: 0px solid black;
+
+}
+
+.imagen-carrusel{
+    background-color: antiquewhite;
+    height: 100%;
+    
+
+}
+
+
+.tarjeta1{
+    height: 100%;
+    background-color: rgb(23, 48, 70);
+
+}
+
+.tarjeta2{
+    height: 100%;
+    background-color: antiquewhite;
+    
+}
+
+.tarjeta3{
+    height: 100%;
+    background-color: rgb(36, 138, 104);
+    
+}
+
+.flechas-carrusel{
+    background-color: rgb(121, 55, 55);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 100px;
+}
