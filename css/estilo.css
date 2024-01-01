@@ -163,7 +163,7 @@ button{
     display: grid;
     justify-content: center;
     max-width: 1000px;
-    gap:200px;
+    gap:30px;
     padding-bottom: 50px;
 }
 
