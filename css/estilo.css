@@ -81,7 +81,7 @@ h1{
 .info button{
     padding: 1rem;
     width: 100%;
-    background-color: rgb(25, 94, 150);
+    background-color: rgb(125, 157, 184);
     border:none;
     outline: none;
     color:rgb(255, 255, 255);
@@ -142,7 +142,7 @@ img{
 button{
     padding: 10px;
     width: 15%;
-    background-color: rgb(25, 94, 150);
+    background-color: rgb(134, 162, 185);
     border:100%;
     outline: none;
     color:rgb(255, 255, 255);
@@ -171,6 +171,7 @@ button{
 b{
     color:rgb(23, 119, 87);
 }
+
 /*responsive*/
 @keyframes cambio{
     0%{margin-left: 0;}
