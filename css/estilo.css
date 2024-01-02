@@ -60,7 +60,7 @@ h1{
 .grid{
     display:grid;
     max-width: 1000px;
-    grid-template-columns: repeat(auto-fit,minmax(25px,250px));
+    grid-template-columns:repeat(auto-fit,minmax(25px,250px));
     padding-bottom: 50px;
     gap:30px;
     text-align: center;
@@ -142,6 +142,8 @@ img{
     border-radius: 20px;
     opacity: transparent;
     width:fit-content;
+    display:auto;
+
 
 }
 
