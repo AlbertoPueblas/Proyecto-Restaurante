@@ -26,9 +26,7 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.container{
-    color: blue;
-}
+
 
 h1{
     text-align: center;
@@ -37,16 +35,17 @@ h1{
 }
 
 .container {
-
-    position:absolute;
+    position: absolute;
     margin: 20px;
-    display: flex;
-    justify-content: left;
+    display:left;
+    justify-content:center;
+    max-width: 1000px;
     gap:30px;
+    text-align: center;
 
 
-  }
-  
+}
+
 
 .contenedor{
     display: grid;
@@ -69,7 +68,7 @@ h1{
     text-align: center;
 }
 
-
+/*acomodando las columnas*/
 .items{
     color:rgb(8, 8, 8);
     background-color: rgb(247, 247, 245);
@@ -109,7 +108,7 @@ h1{
 }
 
 .container.nav{
-    position:absolute;
+    position:grid;
     justify-content: center;
     max-width: 1000px;
     gap:30px;
@@ -129,37 +128,45 @@ img{
 
 .bg-img {
     min-height: 38px;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    opacity: transparent;
+    
+    
 }
 
 .topnav {
     overflow: hidden;
-    opacity: 40%;
-    background-color: #093242;
+    opacity: 30%;
+    background-color: #04202b;
     border-radius: 20px;
-  }
+    opacity: transparent;
+    max-width: 330px;
+}
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #e8ebf0;
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
 .topnav a:hover {
-    background-color: #dadada;
+    background-color: #aeabcf;
     color: black;
+    opacity: 25%;
+    opacity: transparent;
 }
 
 button{
     padding: 10px;
     width: 15%;
-    background-color: rgb(134, 162, 185);
+    background-color: rgb(111, 123, 133);
+    opacity: transparent;
     border:100%;
     outline: none;
     color:rgb(255, 255, 255);
@@ -182,6 +189,7 @@ button{
 b{
     color:rgb(23, 119, 87);
 }
+
 
 /*responsive*/
 @keyframes cambio{
