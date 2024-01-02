@@ -7,11 +7,13 @@
 }
 
 html{
-    font-size: 90%;
+    font-size: 85%;
+    height: 100%;
 } 
 
 body{
     background-color: aliceblue;
+    min-height: 100%;
 }
 
 p{
@@ -70,7 +72,7 @@ h1{
     background-color: rgb(247, 247, 245);
     
 }
-
+/*imagenes columnas*/
 .items img{
     width: 100%;
     height: 190px;
@@ -139,7 +141,7 @@ img{
     background-color: #04202b;
     border-radius: 20px;
     opacity: transparent;
-    width:fit-content
+    width:fit-content;
 
 }
 
