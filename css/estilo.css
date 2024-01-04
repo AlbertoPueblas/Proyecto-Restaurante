@@ -56,11 +56,12 @@ h1{
     
 
 }
+
 /*Creacion de columnas*/
 .grid{
     display:grid;
     max-width: 1000px;
-    grid-template-columns:repeat(auto-fit,minmax(25px,250px));
+    grid-template-columns: repeat(auto-fit,minmax(25px,250px));
     padding-bottom: 50px;
     gap:30px;
     text-align: center;
@@ -72,6 +73,7 @@ h1{
     background-color: rgb(247, 247, 245);
     
 }
+
 /*imagenes columnas*/
 .items img{
     width: 100%;
@@ -82,7 +84,6 @@ h1{
     padding: 15px;
 
 }
-
 
 .info p{
     color:black;
@@ -114,8 +115,6 @@ h1{
     height: 500px;
 }
 
-
-
 img{
     width: 99%;
     display:center;
@@ -142,8 +141,6 @@ img{
     border-radius: 20px;
     opacity: transparent;
     width:fit-content;
-    display:auto;
-
 
 }
 
@@ -192,18 +189,3 @@ b{
 }
 
 
-/*responsive*/
-@keyframes cambio{
-    0%{margin-left: 0;}
-    20%{margin-left: 0;}
-
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-
-    75%{margin-left: -300%;}
-    100%{margin-left: -300%;}
-
-}
