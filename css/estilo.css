@@ -52,6 +52,7 @@ h2{
 main{
     max-width: 1000px;
     margin: auto;
+    text-align: center;
 
 }
 /*Estilo Cartas*/
@@ -83,4 +84,5 @@ header{
 .list-group{
     padding: 150px;
 }
+
 
