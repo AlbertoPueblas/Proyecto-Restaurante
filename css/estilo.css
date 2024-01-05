@@ -43,6 +43,7 @@ button{
 h1{
     padding: 5%;
     color: rgb(61, 60, 60);
+    text-shadow: red;
 }
 
 h2{
@@ -69,6 +70,7 @@ main{
     padding: 1px;
     max-width: 1000px;
     margin: auto;
+    box-shadow: white;
 
 
 }
@@ -81,8 +83,7 @@ header{
 
 }
 
-.list-group{
-    padding: 150px;
+
+.imagenCabecera{
+    border-radius: 1.5em;
 }
-
-
