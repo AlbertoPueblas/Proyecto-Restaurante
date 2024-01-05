@@ -17,7 +17,7 @@
 
 </head>
 <body>
-  <header>
+<header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,24 +39,29 @@
     </nav>
 </header>
 <main>
-  <div class="row">
-    <img src="imagenes/restaurant.jpg">
-  </div>
-  
-  <!--Cuestionario sugerencias-->
-  <div class="mb-3">
-    <h1>Dejanos un comentario</h1>
-    <label for="exampleFormControlInput1" class="form-label">Correo</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Sugerencias</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    <button>Enviar</button>
-    <h2><b>Contacto:</b>054-590-544<br>
-      <b>Direccion</b>:C/Sal si Puedes nº5<br>
-      <b>Correo</b>:RestauranteSol@rest.com</h2>
-  </div>
+    <!--lista de satisfaccion-->
+    <ul class="list-group">
+        <li class="list-group-item">
+          <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+          <label class="form-check-label" for="firstradio">Poco satisfecho</label>
+        </li>
+        <li class="list-group-item">
+          <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+          <label class="form-check-label" for="secondRadio">Satisfecho</label>
+        </li>
+        <li class="list-group-item">
+          <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+          <label class="form-check-label" for="thirdRadio">Muy satisfecho</label>
+        </li>
+        <button><a href="index.html">Enviar</a></button>
+      </ul>
+      <h1>Contacto:054-590-544<br>
+        Direccion:C/Sal si Puedes nº5<br>
+        Correo:RestauranteSol@rest.com</h1>
 </main>
+      
+
+
+
 </body>
 </html>

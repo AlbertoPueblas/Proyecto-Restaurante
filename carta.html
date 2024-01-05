@@ -17,96 +17,168 @@
 
 </head>
 <body>
-<center>
-<div class="contenedor">
-    <nav>
-        <div class="bg-img">
-            <div class="container">
-              <div class="topnav">
-                <a href="index.html">Inicio</a>
-                <a href="carta.html">Carta</a>
-                <a href="contacto.html">Contacto</a>
-  
+<!--Barra de Navegación-->    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="carta.html">Carta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+
               </div>
             </div>
-          </div>
-        <img src="imagenes/restaurante.jpg">
-        <h1>Carta</h1>
-        <div class="grid">
-            <div class="items">
-                <img src="imagenes/paellaMarisco.jpg">
-                <div class="info">
-                    <h3>Paella</h3>
-                    <p>Casera al estilo Valenciano</p>
-                    <p>2 comensales</p>
-                    <b>25€</b>
-                    <button><a href="info.paella.html">+Info</a></button>
-                </div>
-            </div>
+        </nav>
+    </header>
+    
+<!--columnas carta-->
+    <main>
+        <div class="container">
 
-            <div class="items">
-                <img src="imagenes/cachopo.jpg">
-                <div class="info">
-                    <h3>Cachopo</h3>
-                    <p>Casero y con productos frescos</p>
-                    <p>1 comensal</p>
-                    <b>20€</b>
-                    <button><a href="info.cachopo.html">+Info</a></button>
-                </div>                 
-            </div>
+           
+            <div class="row">
+                <img src="imagenes/restaurant.jpg" alt="foto">
 
-            <div class="items">
-                <img src="imagenes/cordero.jpg">
-                <div class="info">
-                    <h3>Cordero</h3>
-                    <p>Cordero al horno con especias</p>
-                    <p>2 comensales</p>
-                    <b>35€</b>
-                    <button><a href="info.cordero.html">+Info</a></button>
-                </div>
-            </div>
-
-            <div class="items">
-                <img src="imagenes/huevos.jpg">
-                <div class="info">
-                    <h3>Huevos Rotos</h3>
-                    <p>Huevos Patatas y Jamón</p>
-                    <p>1 comensal</p>
-                    <b>10€</b>
-                    <button><a href="info.huevos.html">+Info</a></button>
-                </div>
-            </div>
-
-            <div class="items">
-                <img src="imagenes/tortilla.jpg">
-                <div class="info">
-                    <h3>Tortilla Española</h3>
-                    <p>Casera con cebolla</p>
-                    <p>2 comensales</p>
-                    <b>15€</b>
-                    <button><a href="info.tortilla.html">+Info</a></button>
-                </div>
-            </div>
-
-             <div class="items">
-                <img src="imagenes/migasExtremeñas.jpg">
-                <div class="info">
-
-                    <h3>Migas Extremeñas</h3>
-                    <p>Caseras estilo extremeño</p>
-                    <p>2 Comensales</p>
-                    <b>10€<br></b>
-                    <div class="boton"><button><a href="info.migas.html">+Info</a></button>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                    <div class="card h-100">
+                        <img src="imagenes/aguacate.jpg" class="card-img-top" alt="foto">
+                        <div class="card-body">
+                          <h5 class="card-title">Ensalada de Marisco</h5>
+                          <p class="card-text">Ensalada de Marisco con aguacate tomate y gambas.</p>
+                          <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>
+                        </div>
+                      </div>
                     </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/cordero.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cordero</h5>
+                              <p class="card-text">Asado en leña con especias servido con patatas o ensaldada.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/ensalada.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ensalada</h5>
+                              <p class="card-text">Lechuga, tomatitos, cebolla, atún con productos frecos.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                    <div class="card h-100">
+                            <img src="imagenes/alitas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Alitas</h5>
+                              <p class="card-text">Alitas fritas con un toque de limón y salsa al gusto.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/mariscada.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Marisco</h5>
+                              <p class="card-text">Mariscada variada con producto freco de la zona.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/chuleton.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Tomahawk</h5>
+                              <p class="card-text">Chuleton Tomahawk de 300g .</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/fabada.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Fabada</h5>
+                              <p class="card-text">Fabada Asturiana con ingredientes locales elaborada a fuego lento.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/fritura.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Fritura de pescado</h5>
+                              <p class="card-text">fritura de pescado variada con productos frescos de la zona .</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/verdura.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Parrillada</h5>
+                              <p class="card-text">Parrillada de Verduras elaborada con producto local a la parrilla.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/huevos.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Huevos rotos</h5>
+                              <p class="card-text">Huevos Rotos con patatas y jamón Íberico.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/vieiras.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Vieiras</h5>
+                              <p class="card-text">Vieiras en salsa marca de la casa.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-lg-2">
+        
+                        <div class="card h-100">
+                            <img src="imagenes/cachopo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cachopo</h5>
+                              <p class="card-text">Cachopo de Ternera con queso y jamón iberico.</p>
+                              <a href="puntuacion.html" class="btn btn-primary">Puntuar</a>                            </div>
+                          </div>
+                    </div>
+
+
+        
+                     
                 </div>
-                
             </div>
-
         </div>
+    </main>
 
-    </nav>
-</div>
-</center>
 
 </body>
 </html>

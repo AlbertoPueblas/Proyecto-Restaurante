@@ -1,191 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-}
 
 html{
-    font-size: 85%;
-    height: 100%;
-} 
+    font-style: italic;
+
+}
 
 body{
-    background-color: aliceblue;
-    min-height: 100%;
+    background-color: rgb(132, 196, 252);
 }
 
-p{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif; 
-    border-radius: 50px;
-
-}
-
-h1{
-    color: #093242;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.text{
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 3rem;
-}
-
-
-.container {
-    position: absolute;
-    margin: 0px;
-    display:left;
-    justify-content:center;
-    max-width: 1000px;
-    gap:30px;
-    text-align: center;
-
+    font-size: x-large
 
 }
 
+nav{
+    font-size: x-large;
+    height: 30px;
+    border-radius: 5%;
+    max-width: 0px;
+    margin: left;
 
-.contenedor{
-    display: grid;
-    justify-content: center;
-    max-width: 1000px;
-    gap:30px;
-    padding-bottom: 50px;
-    text-align: center;
-    
-    
 
-}
-
-/*Creacion de columnas*/
-.grid{
-    display:grid;
-    max-width: 1000px;
-    grid-template-columns: repeat(auto-fit,minmax(25px,250px));
-    padding-bottom: 50px;
-    gap:30px;
-    text-align: center;
-}
-
-/*acomodando las columnas*/
-.items{
-    color:rgb(8, 8, 8);
-    background-color: rgb(247, 247, 245);
-    
-}
-
-/*imagenes columnas*/
-.items img{
-    width: 100%;
-    height: 190px;
-}
-
-.info{
-    padding: 15px;
-
-}
-
-.info p{
-    color:black;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-
-.info button{
-    padding: 1rem;
-    width: 100%;
-    background-color: rgb(125, 157, 184);
-    border:none;
-    outline: none;
-    color:rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    border-radius:50px;
-    margin-bottom: 5px;
-    cursor: pointer;
-
-}
-
-.container.nav{
-    position:grid;
-    justify-content: center;
-    max-width: 1000px;
-    gap:30px;
-    padding-bottom: 50px;
-    height: 500px;
-}
-
-img{
-    width: 99%;
-    display:center;
-    margin: 0px;
-    height: auto;
-    border-radius:60px;
-}
-
-.bg-img {
-    min-height: 38px;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    opacity: transparent;
-    
-    
-}
-
-.topnav {
-    overflow: hidden;
-    opacity: 30%;
-    background-color: #04202b;
-    border-radius: 20px;
-    opacity: transparent;
-    width:fit-content;
-
-}
-
-.topnav a {
-    float: left;
-    color: #e8ebf0;
-    text-align: center;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 17px;
-}
-  
-.topnav a:hover {
-    background-color: #aeabcf;
-    color: black;
-    opacity: 25%;
-    opacity: transparent;
 }
 
 button{
-    padding: 10px;
-    width: 15%;
-    background-color: rgb(111, 123, 133);
-    opacity: transparent;
-    border:100%;
-    outline: none;
-    color:rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    border-radius:10px;
-    cursor: pointer;
-    margin-bottom: 500px;
-    height: 70px;
+ background-color: rgb(1, 1, 255);
+ cursor: pointer;
+ color: aliceblue;
+
 }
 
-.label-for{
-    font-size: 20px;
-    border-radius: 50px;
-    border: 50px;
+.mb-3{
+    display: center;
+    text-align: center;
+    font-size: x-large;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1{
+    padding: 5%;
+    color: rgb(61, 60, 60);
+}
+
+h2{
+    padding: 40px;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+
+}
+/*Estilo Cartas*/
+.card{
+    display:flex;
+    background-color: rgb(52, 52, 247);
+    color: aliceblue;
+    text-align: center;
+    padding: 1px;
+
+}
+/*Columnas Responsive*/
+.row{
+    padding: 1px;
+    max-width: 1000px;
+    margin: auto;
+
+
 }
 
 
+header{
+    background-color: rgb(132, 196, 252);
+    display: transparent;
+    opacity: 60%;
 
-b{
-    color:rgb(23, 119, 87);
 }
 
+.list-group{
+    padding: 150px;
+}
 
