@@ -17,8 +17,6 @@ body{
 
 nav{
     font-size: x-large;
-    height: 30px;
-    border-radius: 5%;
     max-width: 0px;
     margin: left;
 }
@@ -47,6 +45,10 @@ h2{
     padding: 40px;
 }
 
+h3{
+    padding: 20px;
+}
+
 main{
     max-width: 1000px;
     margin: auto;
@@ -55,7 +57,7 @@ main{
 }
 /*Estilo Cartas*/
 .card{
-    background-color: rgb(52, 52, 247);
+    background-color:rgb(116, 178, 233);
     color: aliceblue;
     text-align: center;
     padding: 1px;
