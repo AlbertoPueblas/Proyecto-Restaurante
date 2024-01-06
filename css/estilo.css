@@ -24,7 +24,7 @@ nav{
 }
 
 button{
- background-color: rgb(1, 1, 255);
+ background-color: rgb(140, 140, 156);
  cursor: pointer;
  color: aliceblue;
 
@@ -41,7 +41,6 @@ button{
 h1{
     padding: 5%;
     color: rgb(61, 60, 60);
-    text-shadow: red;
 }
 
 h2{
@@ -72,7 +71,6 @@ main{
 
 }
 
-
 header{
     background-color: rgb(132, 196, 252);
     display: transparent;
@@ -80,7 +78,11 @@ header{
 
 }
 
-
 .imagenCabecera{
     border-radius: 1.5em;
+}
+
+.formulario{
+    max-width: 500px;
+    margin: auto;
 }
