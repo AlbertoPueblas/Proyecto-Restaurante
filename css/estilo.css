@@ -21,8 +21,6 @@ nav{
     border-radius: 5%;
     max-width: 0px;
     margin: left;
-
-
 }
 
 button{
@@ -58,7 +56,6 @@ main{
 }
 /*Estilo Cartas*/
 .card{
-    display:flex;
     background-color: rgb(52, 52, 247);
     color: aliceblue;
     text-align: center;
