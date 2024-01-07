@@ -6,7 +6,7 @@ html{
 }
 
 body{
-    background-color: rgb(132, 196, 252);
+    background-color: rgb(185, 220, 252);
 }
 
 .text{
@@ -37,7 +37,7 @@ button{
 }
 
 h1{
-    padding: 5%;
+    padding: 2%;
     color: rgb(61, 60, 60);
 }
 
@@ -74,15 +74,15 @@ main{
 }
 
 header{
-    background-color: rgb(132, 196, 252);
+    background-color: rgb(185, 220, 252);
     display: transparent;
-    opacity: 60%;
     color: aliceblue;
 
 }
 
 .imagenCabecera{
     border-radius: 1.5em;
+    max-block-size: 400px;
 }
 
 .formulario{
