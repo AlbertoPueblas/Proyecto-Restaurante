@@ -6,10 +6,10 @@ Utilizaremos la estructura basica de un archivo html utilizando las siguientes t
 
 ![css](https://img.shields.io/badge/CSS3-blue?logo=CSS3)
 
-https://img.shields.io/badge/html5-orange?logo=html5
+![html](https://img.shields.io/badge/html5-orange?logo=html5)
 
 
-https://img.shields.io/badge/bootstrap-purple?logo=bootstrap
+![bootstrap](https://img.shields.io/badge/bootstrap-purple?logo=bootstrap)
 
 ## Requisitos del proyecto.
 1. **Página de Inicio**
