@@ -4,7 +4,7 @@
 En este proyecto vamos a desarroyar una pagina sobre un restaurante.
 Utilizaremos la estructura basica de un archivo html utilizando las siguientes tecnologias.
 
-https://img.shields.io/badge/CSS3-blue?logo=CSS3
+[css](https://img.shields.io/badge/CSS3-blue?logo=CSS3)
 
 https://img.shields.io/badge/html5-orange?logo=html5
 
