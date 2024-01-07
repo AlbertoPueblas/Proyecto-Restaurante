@@ -45,9 +45,13 @@ También crearemos dentro de la etiqueta **body** una etiqueta denominada **main
 * **Los elementos sin funcionalidad se redirigen a un archivo de error.**
 ![captura error](https://github.com/AlbertoPueblas/Proyecto-Restaurante/assets/154467649/2b0dda19-872a-4a2f-a927-76ac72a4c0b6)
 
-## Visualización del proyecto
+## Visualización del repositorio
 
 [Repositorio del proyecto](https://github.com/AlbertoPueblas/Proyecto-Restaurante)
+
+## link proyecto
+[link proyecto](https://albertopueblas.github.io/Proyecto-Restaurante)
+
 
 
 
