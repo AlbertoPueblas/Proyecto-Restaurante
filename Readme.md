@@ -4,8 +4,12 @@
 En este proyecto vamos a desarroyar una pagina sobre un restaurante.
 Utilizaremos la estructura basica de un archivo html utilizando las siguientes tecnologias.
 
-![html-css-bootstrap](https://github.com/AlbertoPueblas/Proyecto-Restaurante/assets/154467649/eafc7089-07a2-49b6-8f31-7fc45f9113d2)
+https://img.shields.io/badge/CSS3-blue?logo=CSS3
 
+https://img.shields.io/badge/html5-orange?logo=html5
+
+
+https://img.shields.io/badge/bootstrap-purple?logo=bootstrap
 
 ## Requisitos del proyecto.
 1. **Página de Inicio**
