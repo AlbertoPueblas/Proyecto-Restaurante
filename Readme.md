@@ -1,9 +1,11 @@
-# Restaurante De Sol
+# Restaurante De Sol![sun_2600-fe0f](https://github.com/AlbertoPueblas/Proyecto-Restaurante/assets/154467649/d3201163-ae72-4a25-8cb2-d5c6c277c5d3)
+
+
 En este proyecto vamos a desarroyar una pagina sobre un restaurante.
 Utilizaremos la estructura basica de un archivo html utilizando las siguientes tecnologias.
-* **HTML5**
-* **CSS3**
-* **Bootstrap**
+
+![html-css-bootstrap](https://github.com/AlbertoPueblas/Proyecto-Restaurante/assets/154467649/eafc7089-07a2-49b6-8f31-7fc45f9113d2)
+
 
 ## Requisitos del proyecto.
 1. **Página de Inicio**
@@ -35,6 +37,9 @@ También crearemos dentro de la etiqueta **body** una etiqueta denominada **main
 
 * **Alguno elementos aún no tienen funcionalidad.**
 ![Captura de pantalla 2024-01-05 201732](https://github.com/AlbertoPueblas/Proyecto-Restaurante/assets/154467649/c8bb6a53-f7c7-4c3e-ba02-e8c2a6006433)
+
+* **Los elementos sin funcionalidad se redirigen a un archivo de error.**
+![captura error](https://github.com/AlbertoPueblas/Proyecto-Restaurante/assets/154467649/2b0dda19-872a-4a2f-a927-76ac72a4c0b6)
 
 ## Visualización del proyecto
 
