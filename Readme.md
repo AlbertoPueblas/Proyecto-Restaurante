@@ -47,7 +47,7 @@ También crearemos dentro de la etiqueta **body** una etiqueta denominada **main
 
 ## Visualización del repositorio
 
-[Repositorio del proyecto](https://github.com/AlbertoPueblas/Proyecto-Consola)
+[Repositorio del proyecto](https://github.com/AlbertoPueblas/Proyecto-Restaurante)
 
 ## link proyecto
 [link proyecto](https://albertopueblas.github.io/Proyecto-Restaurante)
